@@ -201,7 +201,7 @@ for(var i=0;i<cube.length;i++)
     }
 
 var axesHelper = new THREE.AxesHelper( 5 ); //Add world axis
-// scene.add( axesHelper );
+scene.add( axesHelper );
 
 scene.add( group );
 scene.add(lgroup);
